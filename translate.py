@@ -6,3 +6,10 @@ from textblob import TextBlob as TB
 # take a string and translate it
 def translate(text, originallanguage, newlanguage):
     return TB(text).translate(from_lang=originallanguage, to=newlanguage)
+
+'''
+text="hello"
+originallanguage="en"
+newlanguage="es"
+print(translate(text,originallanguage,newlanguage))
+'''
